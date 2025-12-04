@@ -1,0 +1,61 @@
+name: bantaybayan
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  
+  # Map and Location
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  geolocator: ^10.1.0
+  url_launcher: ^6.2.0
+  
+  # Machine Learning
+  tflite_flutter: ^0.11.0
+  
+  # Database and Storage
+  sqflite: ^2.3.0
+  path_provider: ^2.1.0
+  path: ^1.8.3
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Offline Storage
+  shared_preferences: ^2.2.2
+  
+  # HTTP and Networking
+  http: ^1.1.2
+  
+  # SMS/Telephony for SOS
+  another_telephony: ^0.4.1
+  
+  # Appwrite Backend
+  appwrite: 20.3.2
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/routing/pampanga_road_grid.json
+    # - assets/ml_models/flood_probability_model.tflite
+    # - assets/ml_models/flood_depth_model.tflite
+    # - assets/ml_models/scaler_params.json
